@@ -1,12 +1,12 @@
-def hopper 
-programmer_hash = 
+def hopper
+programmer_hash =
 {
   hopper: {
     known_for: "COBOL",
     languages: ["COBOL", "FORTRAN"]
   }
  alan_kay: {
-   known_for: "Object Orientation", 
+   known_for: "Object Orientation",
    languages: ["Smalltalk", "LISP"]
  }
   dennis_ritchie: {
@@ -17,10 +17,10 @@ programmer_hash =
 
   programmer_hash[dennis_ritchie]
 
-end 
+end
 
 def dennis_ritchies_language
-  programmer_hash = 
+  programmer_hash =
    {
        :grace_hopper => {
          :known_for => "COBOL",
@@ -38,10 +38,10 @@ def dennis_ritchies_language
 
     programmer_hash[:dennis_ritchie][:languages]
 
-  end 
+  end
 
   def adding_matz
    programmer_hash[:yukihiro_matsumoto] = {}
-  end 
-  
+  end
+
   
